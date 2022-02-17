@@ -1,8 +1,50 @@
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
+/*.palette-1 {
+  background-color: #fcf8db;
+}
+.palette-2 {
+  background-color: #ec5286;
+}
+.palette-3 {
+  background-color: #1d8dd7;
+}
+.row p {
+  font-size: 96px;
+}*/
+
+:root {
+  --heading-font-family: "Montserrat", sans-serif;
+  --default-font-family: "Roboto", sans-serif;
+  --branding-color: rgb(138, 145, 225, 0.8);
+  --secondary-color: rgb(252, 248, 219, 0.6);
+  --accent-color: #ec5286;
+}
+body {
+  background-image: url(/../images/medium.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--heading-font-family);
+  font-size: 65px;
+  font-weight: bold;
 }
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--default-font-family);
+}
+.hero {
+  background-color: var(--secondary-color);
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  margin: 9em 3em;
+  padding: 40px;
+}
+.btn-branding {
+  background-color: var(--branding-color);
+  color: rgb(253, 223, 223);
+  margin-top: 1em;
+}
+.btn-branding:hover {
+  transition: ease-in-out 2ms;
 }
