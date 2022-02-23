@@ -16,6 +16,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 65px;
   font-weight: bold;
+  text-shadow: 3px 2px 5px var(--accent-color);
 }
 
 p {
