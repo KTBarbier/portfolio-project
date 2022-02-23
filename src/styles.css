@@ -34,10 +34,16 @@ p {
 }
 
 .btn-branding {
-  background-color: var(--branding-color);
+  background-color: rgb(252, 219, 212);
   color: var(--accent-color);
   margin-top: 1em;
   transition: ease-in-out 2ms;
+  border: 1px solid var(--accent-color);
+}
+.btn-branding:hover {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
 }
 
 .btn-branding-outline {
