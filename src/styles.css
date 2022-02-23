@@ -93,5 +93,6 @@ hr {
   body {
     background-image: url(/../images/blue-sm.jpg);
     background-repeat: repeat-y;
+    background-attachment: fixed;
   }
 }
