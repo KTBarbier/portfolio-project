@@ -100,7 +100,7 @@ hr {
   h1 {
     font-size: 46px;
   }
-  body {
+  .index-page-body {
     background-image: url(/../images/blue-sm.jpg);
     background-repeat: repeat-y;
     background-attachment: fixed;
