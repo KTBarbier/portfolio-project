@@ -1,7 +1,7 @@
 :root {
   --heading-font-family: "Montserrat", sans-serif;
   --default-font-family: "Roboto", sans-serif;
-  --branding-color: rgb(0, 190, 242);
+  --branding-color: rgb(6, 94, 108);
   --secondary-color: rgb(252, 219, 212, 0.95);
   --accent-color: rgb(180, 20, 28);
 }
@@ -102,6 +102,7 @@ hr {
   margin-left: 140px;
   margin-right: 140px;
   margin-bottom: 78px;
+  box-shadow: 5px 5px 8px 2px rgb(180, 20, 28, 0.2);
 }
 
 .email-link {
@@ -115,20 +116,20 @@ hr {
 }
 .btn-work-inquiry {
   color: rgb(233, 250, 255);
-  background-color: rgb(15, 100, 126);
+  background-color: var(--branding-color);
   margin-top: 49px;
   margin-left: 200px;
   padding: 7px 24px;
 }
 .btn-work-inquiry:hover {
-  color: rgb(15, 100, 126);
-  border: 1px solid rgb(15, 100, 126);
+  color: rgb(6, 94, 108);
+  border: 1px solid var(--branding-color);
   background-color: rgb(233, 250, 255);
 }
 
 .btn-work-inquiry-outline {
-  color: rgb(15, 100, 126);
-  border: 1px solid rgb(15, 100, 126);
+  color: rgb(6, 94, 108);
+  border: 1px solid var(--branding-color);
   background-color: rgb(233, 250, 255);
 }
 
@@ -162,5 +163,10 @@ hr {
     max-width: 210px;
     display: block;
     margin: 20px auto;
+  }
+  .work-inquiry {
+    text-align: center;
+    background: none;
+    box-shadow: none;
   }
 }
