@@ -146,8 +146,8 @@ hr {
     font-size: 46px;
   }
   .index-page-body {
-    background-image: url(/../images/blue-sm.jpg);
-    background-repeat: repeat-y;
+    background-image: url(/../images/blue-sm-3.jpg);
+    background-repeat: repeat;
     background-attachment: fixed;
   }
 }
