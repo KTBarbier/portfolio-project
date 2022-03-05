@@ -11,6 +11,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.about-page-body {
+  background-color: rgb(1, 188, 231, 0.2);
+}
 
 .hero h1 {
   font-family: var(--heading-font-family);
