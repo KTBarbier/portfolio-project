@@ -6,13 +6,14 @@
   --accent-color: rgb(180, 20, 28);
 }
 
-.index-page-body {
+body {
   background-image: url(/../images/blue.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.about-page-body {
-  background-color: rgb(1, 188, 231, 0.2);
+
+.about-container {
+  background-color: var(--secondary-color);
 }
 
 .hero h1 {
@@ -82,6 +83,7 @@ hr {
   display: block;
   margin-top: 60px;
 }
+
 .about-page-top {
   margin-top: 40px;
   margin-left: 140px;
@@ -96,7 +98,7 @@ hr {
 }
 
 .work-inquiry {
-  background: rgb(233, 250, 255);
+  background: rgb(233, 250, 255, 0.5);
   margin-left: 140px;
   margin-right: 140px;
   margin-bottom: 78px;
@@ -145,9 +147,20 @@ hr {
   h1 {
     font-size: 46px;
   }
-  .index-page-body {
+  body {
     background-image: url(/../images/blue-sm-3.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
+  }
+  .about-page-top {
+    padding-bottom: 10px;
+    margin: 10px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  .selfie {
+    max-width: 210px;
+    display: block;
+    margin: 20px auto;
   }
 }
