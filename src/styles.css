@@ -12,6 +12,11 @@ body {
   background-attachment: fixed;
 }
 
+.navbar {
+  background-color: rgb(252, 219, 212);
+  border: 1px solid var(--accent-color);
+}
+
 .about-container {
   background-color: var(--secondary-color);
 }
@@ -51,16 +56,6 @@ p {
   background-color: var(--accent-color);
 }
 
-.btn-branding-outline {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
-
-.btn-branding-outline:hover {
-  color: var(--secondary-color);
-  background-color: var(--accent-color);
-  transition: ease-in-out 8ms;
-}
 hr {
   color: var(--accent-color);
   max-width: 75%;
@@ -97,40 +92,48 @@ hr {
   border-radius: 25px;
 }
 
-.work-inquiry {
-  background: rgb(233, 250, 255, 0.5);
+/* .work-inquiry {
+  background: var(--secondary-color);
   margin-left: 140px;
   margin-right: 140px;
   margin-bottom: 78px;
   box-shadow: 5px 5px 8px 2px rgb(180, 20, 28, 0.2);
-}
+} */
 
 .email-link {
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
+  text-decoration: none;
+  color: black;
+
+  font-size: 22px;
 }
 .email-link:hover {
   text-decoration: underline;
   color: var(--accent-color);
 }
-.btn-work-inquiry {
-  color: rgb(233, 250, 255);
-  background-color: var(--branding-color);
-  margin-top: 49px;
-  margin-left: 200px;
-  padding: 7px 24px;
+.footer-bottom {
+  background-color: red;
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
 }
-.btn-work-inquiry:hover {
-  color: rgb(6, 94, 108);
-  border: 1px solid var(--branding-color);
-  background-color: rgb(233, 250, 255);
+footer .social-links {
+  text-decoration: none;
 }
-
-.btn-work-inquiry-outline {
-  color: rgb(6, 94, 108);
-  border: 1px solid var(--branding-color);
-  background-color: rgb(233, 250, 255);
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--accent-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
 }
 
 @media (max-width: 990px) {
@@ -164,9 +167,7 @@ hr {
     display: block;
     margin: 20px auto;
   }
-  .work-inquiry {
-    text-align: center;
-    background: none;
-    box-shadow: none;
+  footer a.btn.btn-branding {
+    margin: 0 0 20px 0;
   }
 }
