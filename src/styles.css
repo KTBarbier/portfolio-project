@@ -180,4 +180,12 @@ footer .social-links a:hover {
   footer a.btn.btn-branding {
     margin: 0 0 20px 0;
   }
+  .navbar {
+    background-color: rgb(252, 219, 212);
+    border: 1px solid var(--accent-color);
+    max-height: 65px;
+  }
+  .logo {
+    width: 40px;
+  }
 }
