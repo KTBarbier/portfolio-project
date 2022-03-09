@@ -22,9 +22,10 @@ body {
   color: var(--secondary-color) !important;
   border: 1px solid var(--accent-color);
   border-radius: 50%;
-  padding: 10px 13px;
+  padding: 10px;
   background-color: var(--accent-color);
   font-family: var(--logo-font-family);
+  line-height: 24px;
 }
 
 .about-container {
