@@ -16,9 +16,12 @@ body {
 .navbar {
   background-color: rgb(252, 219, 212);
   border: 1px solid var(--accent-color);
+  max-height: 48px;
 }
-
-.navbar-brand {
+.logo {
+  width: 44px;
+}
+/* .navbar-brand {
   color: var(--secondary-color) !important;
   border: 1px solid var(--accent-color);
   border-radius: 50%;
@@ -26,7 +29,7 @@ body {
   background-color: var(--accent-color);
   font-family: var(--logo-font-family);
   line-height: 24px;
-}
+} */
 
 .about-container {
   background-color: var(--secondary-color);
