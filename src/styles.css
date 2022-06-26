@@ -18,9 +18,11 @@ body {
   border: 1px solid var(--accent-color);
   max-height: 48px;
 }
+
 .logo {
   width: 44px;
 }
+
 /* .navbar-brand {
   color: var(--secondary-color) !important;
   border: 1px solid var(--accent-color);
@@ -64,6 +66,7 @@ p {
   transition: ease-in-out 2ms;
   border: 1px solid var(--accent-color);
 }
+
 .btn-branding:hover {
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
@@ -100,6 +103,10 @@ hr {
   margin-bottom: 100px;
 }
 
+.about-content {
+  text-align: left;
+}
+
 .selfie {
   max-width: 300px;
   margin-left: 188px;
@@ -123,6 +130,7 @@ hr {
 
   font-size: 22px;
 }
+
 .email-link:hover {
   text-decoration: underline;
   color: var(--accent-color);
@@ -131,6 +139,7 @@ hr {
 footer .social-links {
   text-decoration: none;
 }
+
 footer .social-links a {
   margin: 0 20px;
   color: var(--secondary-color);
@@ -140,6 +149,7 @@ footer .social-links a {
   border-radius: 50%;
   transition: all 120ms ease-in-out;
 }
+
 footer .social-links a:hover {
   color: var(--accent-color);
   background-color: var(--secondary-color);
@@ -153,38 +163,46 @@ footer .social-links a:hover {
     margin: 0 auto;
     text-align: center;
   }
+
   .the-projects {
     padding: 5px 0px 25px 0px;
     margin-bottom: 10px;
     margin-top: none;
   }
+
   h1 {
     font-size: 46px;
   }
+
   body {
     background-image: url(/../images/blue-sm-3.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
   }
+
   .about-page-top {
     padding-bottom: 10px;
     margin: 10px;
     padding-left: 2px;
     text-align: center;
   }
+
   .selfie {
     max-width: 210px;
     display: block;
     margin: 20px auto;
   }
+
   footer a.btn.btn-branding {
     margin: 0 0 20px 0;
   }
+
   .navbar {
     background-color: rgb(252, 219, 212);
     border: 1px solid var(--accent-color);
     max-height: 65px;
   }
+
   .logo {
     width: 40px;
   }
